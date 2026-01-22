@@ -1,8 +1,8 @@
 # Site settings
 title: "For Example AI"
 description: "Learn AI concepts through practical, step-by-step guides"
-url: "https://forexample.ai"
-baseurl: ""
+url: "https://www.kjw3.llc"
+baseurl: "/forexample.ai"
 
 # Build settings
 markdown: kramdown
