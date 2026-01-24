@@ -47,6 +47,86 @@ function selectNextTopic(topics, generatedTopics) {
   return unusedTopics[Math.floor(Math.random() * unusedTopics.length)];
 }
 
+// Validate a URL by checking if it returns a successful response
+async function validateUrl(url, timeout = 10000) {
+  try {
+    const response = await axios.head(url, {
+      timeout,
+      maxRedirects: 5,
+      validateStatus: (status) => status >= 200 && status < 400
+    });
+    return true;
+  } catch (error) {
+    // Try GET if HEAD fails (some servers don't support HEAD)
+    try {
+      const response = await axios.get(url, {
+        timeout,
+        maxRedirects: 5,
+        validateStatus: (status) => status >= 200 && status < 400,
+        responseType: 'stream'
+      });
+      // Cancel the stream immediately, we just need to check if it's accessible
+      response.data.destroy();
+      return true;
+    } catch (getError) {
+      console.log(`  ✗ Invalid URL: ${url} (${getError.message})`);
+      return false;
+    }
+  }
+}
+
+// Extract and validate URLs from markdown content
+async function validateLinksInContent(content) {
+  // Match markdown links: [text](url)
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const matches = [...content.matchAll(linkRegex)];
+
+  if (matches.length === 0) {
+    return content;
+  }
+
+  console.log(`Validating ${matches.length} links...`);
+
+  const validatedLinks = await Promise.all(
+    matches.map(async (match) => {
+      const fullMatch = match[0];
+      const text = match[1];
+      const url = match[2];
+
+      // Skip internal links (starting with /)
+      if (url.startsWith('/') || url.startsWith('#')) {
+        return { fullMatch, isValid: true };
+      }
+
+      const isValid = await validateUrl(url);
+      if (isValid) {
+        console.log(`  ✓ Valid: ${url}`);
+      }
+
+      return { fullMatch, isValid };
+    })
+  );
+
+  // Remove invalid links from content
+  let validatedContent = content;
+  validatedLinks.forEach(({ fullMatch, isValid }) => {
+    if (!isValid) {
+      // Remove the entire line containing the invalid link
+      const lines = validatedContent.split('\n');
+      validatedContent = lines
+        .filter(line => !line.includes(fullMatch))
+        .join('\n');
+    }
+  });
+
+  const removedCount = validatedLinks.filter(l => !l.isValid).length;
+  if (removedCount > 0) {
+    console.log(`Removed ${removedCount} invalid link(s)`);
+  }
+
+  return validatedContent;
+}
+
 // Generate guide content using NVIDIA API
 async function generateGuideContent(topic) {
   const prompt = `Create an educational guide about "${topic.title}" for an AI learning website called "For Example AI".
@@ -110,7 +190,12 @@ Be friendly, be human, be helpful!`;
       }
     );
 
-    return response.data.choices[0].message.content;
+    const content = response.data.choices[0].message.content;
+
+    // Validate all links in the generated content
+    const validatedContent = await validateLinksInContent(content);
+
+    return validatedContent;
   } catch (error) {
     console.error('NVIDIA API Error:', error.response?.data || error.message);
     throw error;

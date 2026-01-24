@@ -4,7 +4,8 @@
   "description": "AI education guides automatically generated and published on GitHub Pages",
   "main": "scripts/generate-guide.js",
   "scripts": {
-    "generate": "node scripts/generate-guide.js"
+    "generate": "node scripts/generate-guide.js",
+    "check-links": "node scripts/check-links.js"
   },
   "keywords": [
     "ai",

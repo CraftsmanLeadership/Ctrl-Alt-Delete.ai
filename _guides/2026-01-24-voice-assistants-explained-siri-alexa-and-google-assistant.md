@@ -72,6 +72,6 @@ Google Assistant is Google's voice assistant, first introduced in 2016. Google A
 **Further Reading**
 -------------------
 
-- [Natural Language Processing (NLP) Tutorial](https://www.tensorflow.org/tutorials/sequence/nlp/text_classification) - A comprehensive tutorial on NLP with TensorFlow.
-- [Voice Assistant Comparison](https://www.cnet.com/news/apple-siri-vs-amazon-alexa-vs-google-assistant-which-is-best/) - A detailed comparison of Siri, Alexa, and Google Assistant.
-- [Smart Home Automation with Voice Assistants](https://www.smarthome.com/voice-assistant-smart-home/) - A guide to smart home automation with voice assistants.
+- [TensorFlow Text Classification Tutorial](https://www.tensorflow.org/tutorials/keras/text_classification) - A comprehensive tutorial on NLP with TensorFlow.
+- [Alexa vs Siri vs Google Assistant Comparison](https://www.tomsguide.com/us/alexa-vs-siri-vs-google,review-4772.html) - A detailed comparison of Siri, Alexa, and Google Assistant.
+- [Smart Home Voice Assistant Comparison](https://switchedhome.com/best-smart-assistant-comparison/) - A guide to choosing the right voice assistant for your smart home.

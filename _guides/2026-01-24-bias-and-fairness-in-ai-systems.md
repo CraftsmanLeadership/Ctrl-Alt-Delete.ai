@@ -77,6 +77,6 @@ In 2018, it was revealed that Amazon's hiring algorithm was biased against women
 **Further Reading**
 -------------------
 
-* [AI Fairness 360](https://aif360.mybluemix.net/) - A comprehensive toolkit for fairness metrics and bias testing.
+* [AI Fairness 360](https://ai-fairness-360.org/) - A comprehensive toolkit for fairness metrics and bias testing.
 * [Fairness, Accountability, and Transparency in Machine Learning](https://www.fatml.org/) - A resource for learning about fairness and transparency in machine learning.
-* [Diversity in Faces Dataset](https://diversity-in-faces.org/) - A dataset highlighting the diversity of faces and skin tones.
+* [Fair Human-Centric Image Benchmark](https://www.nature.com/articles/s41586-025-09716-2) - A globally diverse fairness evaluation dataset with 10,318 consensually-sourced images.

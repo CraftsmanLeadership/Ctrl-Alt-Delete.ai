@@ -146,7 +146,7 @@ Here's a template you can use for complex prompts:
 
 ## Further Reading
 
-- [OpenAI's Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Official documentation with advanced techniques
+- [Prompt Engineering Guide](https://www.promptingguide.ai/) - Comprehensive free guide with latest papers and advanced techniques
 - [r/PromptEngineering](https://www.reddit.com/r/PromptEngineering/) - Community sharing tips, examples, and best practices
 - [Learn Prompting](https://learnprompting.org/) - Free comprehensive course on prompt engineering
 
