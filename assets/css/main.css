@@ -319,7 +319,7 @@ body {
 
 .guide-image {
     width: 100%;
-    max-height: 500px;
+    height: 400px;
     overflow: hidden;
     position: relative;
 }
@@ -564,6 +564,14 @@ body {
     .filter-buttons {
         justify-content: center;
     }
+
+    .guide-image {
+        height: 300px;
+    }
+
+    .card-image {
+        height: 180px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -585,6 +593,14 @@ body {
 
     .guide-content h3 {
         font-size: 1.25rem;
+    }
+
+    .guide-image {
+        height: 250px;
+    }
+
+    .card-image {
+        height: 160px;
     }
 }
 
