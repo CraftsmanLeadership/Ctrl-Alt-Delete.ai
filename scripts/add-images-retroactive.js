@@ -32,7 +32,7 @@ function parseFrontMatter(content) {
 // Generate AI image prompt from topic
 function generateImagePrompt(title, tags) {
   const keywords = tags.slice(0, 3).join(', ');
-  return `Modern professional tech illustration about ${title}, ${keywords}, clean design, vibrant gradients with blue purple teal colors, abstract geometric shapes, flowing lines, tech motifs, educational, inspiring, high quality digital art`;
+  return `Modern professional tech illustration about ${title}, ${keywords}, clean design, vibrant gradients with blue purple teal colors, abstract geometric shapes, flowing lines, tech motifs, educational, inspiring, high quality digital art, NO TEXT, NO WORDS, NO LETTERS`;
 }
 
 // Generate and save image using NVIDIA's FLUX.1-schnell with retry logic

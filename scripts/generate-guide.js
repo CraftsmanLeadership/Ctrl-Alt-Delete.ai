@@ -272,7 +272,7 @@ function generateDescription(title, difficulty) {
 function generateImagePrompt(topic) {
   // Create a concise prompt for FLUX
   const keywords = topic.tags.slice(0, 3).join(', ');
-  return `Modern professional tech illustration about ${topic.title}, ${keywords}, clean design, vibrant gradients with blue purple teal colors, abstract geometric shapes, flowing lines, tech motifs, educational, inspiring, high quality digital art`;
+  return `Modern professional tech illustration about ${topic.title}, ${keywords}, clean design, vibrant gradients with blue purple teal colors, abstract geometric shapes, flowing lines, tech motifs, educational, inspiring, high quality digital art, NO TEXT, NO WORDS, NO LETTERS`;
 }
 
 // Generate and save image using NVIDIA's FLUX.1-dev
