@@ -141,8 +141,17 @@ WRITING STYLE & PERSONALITY:
 - Write like you're explaining to a curious friend over coffee, not lecturing
 - Appropriate for ${topic.difficulty} level readers
 
-VISUAL FORMATTING:
-- Use callout boxes for important points: > **💡 Pro Tip:** for tips, > **⚠️ Watch Out:** for warnings, > **🎯 Key Insight:** for key concepts
+VISUAL FORMATTING (CRITICAL - FOLLOW EXACTLY):
+- ALWAYS use blockquote syntax for callout boxes. Each callout MUST start with > character
+- Callout format examples (COPY THIS EXACT FORMAT):
+  > **💡 Pro Tip:** Your tip text here
+
+  > **⚠️ Watch Out:** Your warning text here
+
+  > **🎯 Key Insight:** Your insight text here
+
+- DO NOT write callouts as plain bold text like **💡 Pro Tip:**
+- ALWAYS include the > character at the start of callout lines
 - Add emojis strategically in headers and callouts to add visual interest
 - Use **bold** liberally for emphasis
 - Create variety in section structure

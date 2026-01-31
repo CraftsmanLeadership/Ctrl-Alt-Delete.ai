@@ -21,7 +21,7 @@ No prerequisites needed, just a willingness to learn about the fascinating world
 **What is Model Security?**
 Model security refers to the practices and techniques used to protect AI models from various types of attacks, data breaches, and other malicious activities that could compromise their integrity and performance. It's an essential aspect of AI development, as it helps ensure that our models are robust, reliable, and trustworthy.
 
-**🎯 Key Insight:** Model security is not just about protecting our models from external threats; it's also about ensuring that our models are fair, transparent, and unbiased.
+> **🎯 Key Insight:** Model security is not just about protecting our models from external threats; it's also about ensuring that our models are fair, transparent, and unbiased.
 
 **Types of Model Security Threats**
 There are several types of model security threats that AI developers need to be aware of. Here are a few:
@@ -31,7 +31,7 @@ There are several types of model security threats that AI developers need to be 
 * **Model Stealing**: This is a type of attack where an attacker tries to steal the model itself, often by exploiting vulnerabilities in the model's architecture or implementation.
 * **Adversarial Attacks**: These are types of attacks where an attacker tries to manipulate the model's inputs to produce incorrect or misleading outputs.
 
-**💡 Pro Tip:** One way to protect against data poisoning is to implement data validation and sanitization techniques, such as input normalization and feature scaling.
+> **💡 Pro Tip:** One way to protect against data poisoning is to implement data validation and sanitization techniques, such as input normalization and feature scaling.
 
 **Real-World Examples**
 Let's take a look at some real-world examples of model security threats:
