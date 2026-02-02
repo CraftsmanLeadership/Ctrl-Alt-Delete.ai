@@ -37,7 +37,7 @@ function generateImagePrompt(title, tags) {
 }
 
 // Generate and save image using NVIDIA's FLUX.1-schnell with retry logic
-async function generateAndSaveImage(title, tags, maxRetries = 3) {
+async function generateAndSaveImage(title, tags, maxRetries = 5) {
   const slug = title
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
@@ -83,7 +83,7 @@ async function generateAndSaveImage(title, tags, maxRetries = 3) {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
           },
-          timeout: 180000 // 3 minute timeout for image generation
+          timeout: 300000 // 5 minute timeout for image generation
         }
       );
 
@@ -117,7 +117,7 @@ async function generateAndSaveImage(title, tags, maxRetries = 3) {
 
       // If this wasn't the last attempt, wait before retrying
       if (attempt < maxRetries) {
-        const waitTime = Math.pow(2, attempt) * 1000; // Exponential backoff: 2s, 4s, 8s
+        const waitTime = Math.pow(2, attempt) * 10000; // Exponential backoff: 20s, 40s, 80s, 160s
         console.log(`  Waiting ${waitTime/1000}s before retry...`);
         await new Promise(resolve => setTimeout(resolve, waitTime));
       } else {

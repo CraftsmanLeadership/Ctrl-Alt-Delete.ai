@@ -297,7 +297,7 @@ function generateImagePrompt(topic) {
 }
 
 // Generate and save image using NVIDIA's FLUX.1-dev
-async function fetchAndSaveImage(topic, maxRetries = 3) {
+async function fetchAndSaveImage(topic, maxRetries = 5) {
   const slug = topic.title
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
@@ -341,7 +341,7 @@ async function fetchAndSaveImage(topic, maxRetries = 3) {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
           },
-          timeout: 180000 // 3 minute timeout for image generation
+          timeout: 300000 // 5 minute timeout for image generation
         }
       );
 
@@ -375,7 +375,7 @@ async function fetchAndSaveImage(topic, maxRetries = 3) {
 
       // If this wasn't the last attempt, wait before retrying
       if (attempt < maxRetries) {
-        const waitTime = Math.pow(2, attempt) * 1000; // Exponential backoff: 2s, 4s, 8s
+        const waitTime = Math.pow(2, attempt) * 10000; // Exponential backoff: 20s, 40s, 80s, 160s
         console.log(`Waiting ${waitTime/1000}s before retry...`);
         await new Promise(resolve => setTimeout(resolve, waitTime));
       } else {
@@ -465,6 +465,10 @@ async function main() {
     // Generate content
     console.log('Generating content with NVIDIA API...');
     const content = await generateGuideContent(topic);
+
+    // Wait a moment before image generation to avoid rate limiting
+    console.log('Waiting 5 seconds before image generation...');
+    await new Promise(resolve => setTimeout(resolve, 5000));
 
     // Fetch image
     console.log('Fetching image...');
