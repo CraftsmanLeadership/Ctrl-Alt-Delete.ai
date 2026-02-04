@@ -635,144 +635,149 @@ body {
     min-height: calc(100vh - 200px);
 }
 
-/* Series Navigation */
-.series-navigation {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: var(--white);
-    padding: 2rem 0;
+/* Series Info Box (Top of Content) */
+.series-info-box {
+    background-color: var(--bg-color);
+    border-left: 4px solid var(--primary-color);
+    padding: 1rem 1.5rem;
     margin-bottom: 2rem;
+    border-radius: var(--border-radius);
 }
 
-.series-info {
-    text-align: center;
-    margin-bottom: 2rem;
+.series-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.75rem;
 }
 
 .series-badge {
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
     font-size: 0.875rem;
     font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 0.5rem;
+    color: var(--primary-color);
 }
 
-.series-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
+.series-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary-color);
 }
 
-.series-progress {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.series-part {
-    font-size: 0.875rem;
-    opacity: 0.9;
-}
-
-.progress-bar {
-    width: 200px;
-    height: 8px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
+.series-progress-bar {
+    width: 100%;
+    height: 6px;
+    background-color: var(--border-color);
+    border-radius: 3px;
     overflow: hidden;
 }
 
-.progress-fill {
+.series-progress-fill {
     height: 100%;
-    background-color: var(--white);
-    border-radius: 4px;
+    background-color: var(--primary-color);
+    border-radius: 3px;
     transition: width 0.3s ease;
 }
 
-.series-links {
+/* Series Navigation (Bottom of Content) */
+.series-navigation {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--border-color);
+}
+
+.series-nav-title {
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.series-nav-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
-.series-link {
+.series-nav-link {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    gap: 1rem;
+    padding: 1.25rem;
+    background-color: var(--white);
+    border: 2px solid var(--border-color);
     border-radius: var(--border-radius);
     text-decoration: none;
-    color: var(--white);
+    color: var(--text-color);
     transition: all 0.3s ease;
+    box-shadow: var(--shadow);
 }
 
-.series-link:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.4);
+.series-nav-link:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-hover);
     transform: translateY(-2px);
 }
 
-.series-prev {
+.series-nav-link.prev {
     justify-content: flex-start;
 }
 
-.series-next {
+.series-nav-link.next {
     justify-content: flex-end;
 }
 
-.series-link .arrow {
+.nav-arrow {
     font-size: 1.5rem;
+    color: var(--primary-color);
     font-weight: bold;
 }
 
-.series-link .link-text {
+.nav-content {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
 }
 
-.series-link .link-label {
+.nav-label {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    opacity: 0.8;
-}
-
-.series-link .link-title {
-    font-size: 0.9rem;
+    color: var(--text-light);
     font-weight: 600;
 }
 
-.series-link-placeholder {
-    /* Empty space for alignment when no prev/next */
+.nav-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
-    .series-navigation {
-        padding: 1.5rem 0;
+    .series-info-box {
+        padding: 1rem;
     }
 
-    .series-title {
+    .series-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .series-nav-links {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .series-nav-link {
+        padding: 1rem;
+    }
+
+    .nav-arrow {
         font-size: 1.25rem;
     }
 
-    .series-links {
-        grid-template-columns: 1fr;
-    }
-
-    .series-link {
-        padding: 0.75rem;
-    }
-
-    .series-link .link-title {
-        font-size: 0.85rem;
+    .nav-title {
+        font-size: 0.9rem;
     }
 }
