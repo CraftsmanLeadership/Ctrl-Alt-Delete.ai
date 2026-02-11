@@ -1,466 +1,172 @@
 {
   "topics": [
     {
-      "title": "Strategic Thinking for Government Contracting Success",
+      "title": "The Illusion of Readiness Metrics",
       "difficulty": "beginner",
       "tier": "strategic",
-      "tags": ["strategic-leadership", "mindset", "fundamentals", "govcon-basics"]
+      "tags": ["readiness", "metrics", "dashboards", "perception-vs-reality"]
     },
     {
-      "title": "Understanding DoD Organizational Culture and Decision-Making",
+      "title": "Compliance Culture vs. Combat Capability",
       "difficulty": "beginner",
       "tier": "strategic",
-      "tags": ["strategic-leadership", "dod-culture", "organizational-behavior", "buyer-perspective"]
+      "tags": ["culture", "compliance", "capability", "institutional-drift"]
     },
     {
-      "title": "The Principal-Agent Problem in Government Contracting",
+      "title": "Sustainment as a Warfighting Function",
       "difficulty": "intermediate",
       "tier": "strategic",
-      "tags": ["strategic-leadership", "systems-thinking", "dod-culture", "bureaucracy"]
+      "tags": ["sustainment", "logistics", "airpower", "warfighting"]
     },
     {
-      "title": "Long-Term Market Positioning vs. Short-Term Wins",
-      "difficulty": "intermediate",
-      "tier": "strategic",
-      "tags": ["strategic-leadership", "business-strategy", "market-positioning", "patience"]
-    },
-    {
-      "title": "Strategic Foresight: Identifying Future DoD Needs",
-      "difficulty": "advanced",
-      "tier": "strategic",
-      "tags": ["strategic-leadership", "innovation", "market-research", "strategic-foresight"]
-    },
-    {
-      "title": "Building Competitive Advantage in Government Markets",
-      "difficulty": "intermediate",
-      "tier": "strategic",
-      "tags": ["strategic-leadership", "competitive-strategy", "differentiation", "value-proposition"]
-    },
-    {
-      "title": "Strategic Partnerships and Teaming Agreements",
-      "difficulty": "intermediate",
-      "tier": "strategic",
-      "tags": ["partnerships", "teaming", "collaboration", "strategic-alliances"]
-    },
-    {
-      "title": "The Buyer's Perspective: What Program Managers Really Want",
-      "difficulty": "beginner",
-      "tier": "strategic",
-      "tags": ["buyer-perspective", "program-management", "requirements", "insider-knowledge"]
-    },
-    {
-      "title": "Partners vs. Products: Changing Your Sales Mindset",
-      "difficulty": "beginner",
-      "tier": "strategic",
-      "tags": ["mindset", "sales-strategy", "relationships", "partnership-approach"]
-    },
-    {
-      "title": "Understanding Military Service Culture Differences",
-      "difficulty": "beginner",
-      "tier": "strategic",
-      "tags": ["dod-culture", "air-force", "army", "navy", "organizational-culture"]
-    },
-    {
-      "title": "Leading Organizational Change for Government Work",
+      "title": "The Promotion Timeline Paradox",
       "difficulty": "intermediate",
       "tier": "leadership",
-      "tags": ["leadership", "change-management", "organizational-development", "culture"]
+      "tags": ["promotion", "merit", "experience", "talent-management"]
     },
     {
-      "title": "Building a Government-Facing Culture in Your Organization",
+      "title": "Rapid Enlisted Advancement and Skill Dilution",
       "difficulty": "intermediate",
       "tier": "leadership",
-      "tags": ["leadership", "organizational-culture", "govcon-culture", "team-building"]
+      "tags": ["enlisted-force", "experience-gap", "skill-depth", "credibility"]
     },
     {
-      "title": "Managing Strategic Patience in Long Government Sales Cycles",
-      "difficulty": "intermediate",
-      "tier": "leadership",
-      "tags": ["leadership", "patience", "sales-cycles", "stakeholder-management"]
-    },
-    {
-      "title": "Values-Based Decision Making in Bid/No-Bid Decisions",
-      "difficulty": "intermediate",
-      "tier": "leadership",
-      "tags": ["leadership", "decision-making", "values", "bid-strategy"]
-    },
-    {
-      "title": "Leading Business Development Teams in GovCon",
-      "difficulty": "intermediate",
-      "tier": "leadership",
-      "tags": ["leadership", "business-development", "team-management", "sales-leadership"]
-    },
-    {
-      "title": "Navigating Bureaucracy with Strategic Patience",
-      "difficulty": "intermediate",
-      "tier": "leadership",
-      "tags": ["leadership", "bureaucracy", "patience", "persistence"]
-    },
-    {
-      "title": "Stakeholder Management Across Multiple Agencies",
+      "title": "Command as Entitlement vs. Command as Pinnacle",
       "difficulty": "advanced",
       "tier": "leadership",
-      "tags": ["leadership", "stakeholder-management", "relationships", "multi-agency"]
+      "tags": ["command", "authority", "career-structure", "leadership-standards"]
     },
     {
-      "title": "Building Trust with Government Program Offices",
-      "difficulty": "beginner",
-      "tier": "leadership",
-      "tags": ["relationships", "trust", "program-offices", "credibility"]
-    },
-    {
-      "title": "Leading Innovation Within Government Constraints",
-      "difficulty": "advanced",
-      "tier": "leadership",
-      "tags": ["leadership", "innovation", "constraints", "creative-problem-solving"]
-    },
-    {
-      "title": "Managing Organizational Expectations Around Government Timelines",
-      "difficulty": "intermediate",
-      "tier": "leadership",
-      "tags": ["leadership", "expectations", "timelines", "communication"]
-    },
-    {
-      "title": "SAM.gov Registration: Your Gateway to Federal Contracting",
-      "difficulty": "beginner",
-      "tier": "tactical",
-      "tags": ["sam-registration", "compliance", "registration", "fundamentals"]
-    },
-    {
-      "title": "Understanding NAICS Codes and Their Strategic Importance",
-      "difficulty": "beginner",
-      "tier": "tactical",
-      "tags": ["naics-codes", "classification", "small-business", "set-asides"]
-    },
-    {
-      "title": "Small Business Certifications: 8(a), SDVOSB, WOSB, HUBZone",
-      "difficulty": "beginner",
-      "tier": "tactical",
-      "tags": ["certifications", "small-business", "set-asides", "socioeconomic"]
-    },
-    {
-      "title": "SBIR/STTR Phase I: Getting Started with Innovation Funding",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["sbir", "sttr", "innovation", "funding", "small-business"]
-    },
-    {
-      "title": "SBIR/STTR Phase II and III: Scaling Your Innovation",
-      "difficulty": "advanced",
-      "tier": "tactical",
-      "tags": ["sbir", "sttr", "scaling", "commercialization", "phase-ii"]
-    },
-    {
-      "title": "Understanding the Federal Acquisition Regulation (FAR)",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["far", "regulations", "compliance", "acquisition"]
-    },
-    {
-      "title": "Defense Federal Acquisition Regulation Supplement (DFARS)",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["dfars", "defense", "regulations", "compliance"]
-    },
-    {
-      "title": "ATO Process: Authority to Operate for Software Products",
-      "difficulty": "advanced",
-      "tier": "tactical",
-      "tags": ["ato", "cybersecurity", "compliance", "software", "authorization"]
-    },
-    {
-      "title": "CMMC Compliance: Cybersecurity for Defense Contractors",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["cmmc", "cybersecurity", "compliance", "defense", "security"]
-    },
-    {
-      "title": "How to Search for Contract Opportunities on SAM.gov",
-      "difficulty": "beginner",
-      "tier": "tactical",
-      "tags": ["sam-gov", "opportunity-search", "rfp", "solicitations"]
-    },
-    {
-      "title": "Understanding Past Performance Requirements",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["past-performance", "cpars", "evaluation", "credibility"]
-    },
-    {
-      "title": "Building Past Performance Without Prior Government Work",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["past-performance", "new-contractors", "strategy", "workarounds"]
-    },
-    {
-      "title": "Proposal Writing Fundamentals for Government RFPs",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["proposal-writing", "rfp-response", "technical-writing", "compliance"]
-    },
-    {
-      "title": "Technical Approach: Demonstrating Your Solution Capability",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["proposal-writing", "technical-approach", "solution-design", "demonstrations"]
-    },
-    {
-      "title": "Pricing Strategies for Government Proposals",
-      "difficulty": "advanced",
-      "tier": "tactical",
-      "tags": ["pricing", "cost-plus", "fixed-price", "proposal-strategy"]
-    },
-    {
-      "title": "Understanding Contract Types: FFP, CPFF, T&M, and More",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["contract-types", "pricing", "risk", "acquisition"]
-    },
-    {
-      "title": "Teaming Agreements: Prime vs. Subcontractor Strategies",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["teaming", "partnerships", "prime-contractor", "subcontracting"]
-    },
-    {
-      "title": "How to Pitch to Air Force Program Offices",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["pitching", "air-force", "program-offices", "sales", "presentations"]
-    },
-    {
-      "title": "Creating Effective Capability Statements",
-      "difficulty": "beginner",
-      "tier": "tactical",
-      "tags": ["capability-statements", "marketing", "one-pagers", "branding"]
-    },
-    {
-      "title": "Networking Strategies for Government Contractors",
-      "difficulty": "beginner",
-      "tier": "tactical",
-      "tags": ["networking", "relationships", "conferences", "industry-days"]
-    },
-    {
-      "title": "Industry Days and Pre-RFP Engagement",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["industry-days", "pre-rfp", "engagement", "networking"]
-    },
-    {
-      "title": "Understanding the Technology Readiness Level (TRL) Scale",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["trl", "technology", "readiness", "innovation", "maturity"]
-    },
-    {
-      "title": "Navigating Other Transaction Agreements (OTAs)",
-      "difficulty": "advanced",
-      "tier": "tactical",
-      "tags": ["ota", "non-traditional", "acquisition", "innovation"]
-    },
-    {
-      "title": "Working with Defense Innovation Units and Non-Traditional Pathways",
-      "difficulty": "advanced",
-      "tier": "tactical",
-      "tags": ["diu", "innovation", "non-traditional", "rapid-acquisition"]
-    },
-    {
-      "title": "Understanding Contract Modifications and Change Orders",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["modifications", "change-orders", "contract-management", "execution"]
-    },
-    {
-      "title": "Invoicing and Payment in Government Contracts",
-      "difficulty": "beginner",
-      "tier": "tactical",
-      "tags": ["invoicing", "payment", "wawf", "finance", "billing"]
-    },
-    {
-      "title": "Contract Closeout Procedures",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["closeout", "contract-management", "compliance", "final-payment"]
-    },
-    {
-      "title": "Strategic Thinking: From Products to Partnerships",
-      "difficulty": "beginner",
-      "tier": "strategic",
-      "tags": ["strategic-leadership", "mindset-shift", "relationships", "value-creation"]
-    },
-    {
-      "title": "Understanding AFWERX and Air Force Innovation Ecosystem",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["afwerx", "innovation", "air-force", "sbir", "accelerators"]
-    },
-    {
-      "title": "The XR Developer's Guide to Military Training Contracts",
-      "difficulty": "advanced",
-      "tier": "tactical",
-      "tags": ["xr", "vr", "ar", "training", "technology", "motar"]
-    },
-    {
-      "title": "Understanding the DoD Innovation Ecosystem",
-      "difficulty": "intermediate",
-      "tier": "strategic",
-      "tags": ["innovation", "dod-ecosystem", "diu", "afwerx", "sbir"]
-    },
-    {
-      "title": "Avoiding Toxic Leadership in Your Government Contracting Business",
-      "difficulty": "intermediate",
-      "tier": "leadership",
-      "tags": ["leadership", "toxic-leadership", "culture", "organizational-health"]
-    },
-    {
-      "title": "Balancing Innovation and Compliance in DoD Work",
+      "title": "Bureaucratic Decision Latency and Operational Risk",
       "difficulty": "advanced",
       "tier": "strategic",
-      "tags": ["innovation", "compliance", "balance", "creative-constraints"]
+      "tags": ["bureaucracy", "decision-speed", "risk", "operational-impact"]
     },
     {
-      "title": "Strategic Market Research for Government Contractors",
+      "title": "Training the Wrong Brain: Neuroscience Failures in Military Education",
+      "difficulty": "advanced",
+      "tier": "strategic",
+      "tags": ["neuroscience", "learning-theory", "training-culture", "cognitive-performance"]
+    },
+    {
+      "title": "Continuum of Learning vs. Spectrum of Mastery",
       "difficulty": "intermediate",
       "tier": "strategic",
-      "tags": ["market-research", "competitive-intelligence", "strategy", "analysis"]
+      "tags": ["learning-models", "mastery", "competency", "education-reform"]
     },
     {
-      "title": "Understanding Budget Cycles and Their Impact on Contracting",
+      "title": "Instructor Maturity and Pedagogical Deficiencies",
       "difficulty": "intermediate",
-      "tier": "strategic",
-      "tags": ["budget-cycles", "timing", "fiscal-year", "appropriations"]
+      "tier": "leadership",
+      "tags": ["instructors", "pedagogy", "training-quality", "development"]
     },
     {
-      "title": "How to Read and Respond to Sources Sought Notices",
+      "title": "Eight-Hour Training Days and Cognitive Inefficiency",
       "difficulty": "beginner",
       "tier": "tactical",
-      "tags": ["sources-sought", "market-research", "pre-rfp", "opportunities"]
+      "tags": ["training-design", "cognitive-load", "efficiency", "learning-science"]
     },
     {
-      "title": "Understanding Evaluation Criteria and Win Strategies",
+      "title": "Emotional Events vs. Cognitive Encoding",
       "difficulty": "advanced",
-      "tier": "tactical",
-      "tags": ["evaluation-criteria", "win-strategy", "proposal-strategy", "lpta-vs-best-value"]
+      "tier": "strategic",
+      "tags": ["memory", "encoding", "stress", "learning-psychology"]
     },
     {
-      "title": "Building Relationships with Contracting Officers",
-      "difficulty": "intermediate",
-      "tier": "leadership",
-      "tags": ["relationships", "contracting-officers", "ko", "networking"]
+      "title": "The Special Operations Standard Applied to the Conventional Force",
+      "difficulty": "advanced",
+      "tier": "strategic",
+      "tags": ["elite-standards", "force-quality", "discipline", "readiness"]
     },
     {
-      "title": "Understanding the Difference Between Requirements and Desires",
+      "title": "Precision Over Volume: The Future of Airpower",
       "difficulty": "intermediate",
       "tier": "strategic",
-      "tags": ["requirements-analysis", "buyer-perspective", "needs-assessment", "strategic-thinking"]
+      "tags": ["precision-strike", "airpower", "future-warfare", "technology"]
     },
     {
-      "title": "Creating a Government Contracting Business Development Plan",
+      "title": "Engineering as Combat: Reframing Maintenance Culture",
       "difficulty": "intermediate",
       "tier": "leadership",
-      "tags": ["bd-plan", "business-development", "strategy", "planning"]
+      "tags": ["engineering", "maintenance", "combat-mindset", "culture"]
     },
     {
-      "title": "Capture Management: Winning Before the RFP Drops",
+      "title": "Staff Officer Inflation and Rank Saturation",
       "difficulty": "advanced",
-      "tier": "tactical",
-      "tags": ["capture-management", "pre-rfp", "shaping", "win-strategy"]
+      "tier": "strategic",
+      "tags": ["staff-structure", "rank-inflation", "organizational-design", "efficiency"]
     },
     {
-      "title": "Understanding GSA Schedules and When to Pursue Them",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["gsa-schedule", "vehicle", "contracts", "federal-supply-schedule"]
-    },
-    {
-      "title": "Mentor-Protégé Programs and Joint Ventures",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["mentor-protege", "joint-ventures", "partnerships", "small-business"]
-    },
-    {
-      "title": "Understanding Protests and the GAO Process",
+      "title": "Acquisition Delay and the Decade-Long Platform Problem",
       "difficulty": "advanced",
-      "tier": "tactical",
-      "tags": ["protests", "gao", "legal", "debriefs", "post-award"]
+      "tier": "strategic",
+      "tags": ["acquisition", "platforms", "technology-delay", "procurement"]
     },
     {
-      "title": "Managing Your First Government Contract: Lessons Learned",
+      "title": "Legacy Fleet Modernization vs. New Platform Obsession",
+      "difficulty": "intermediate",
+      "tier": "strategic",
+      "tags": ["modernization", "legacy-systems", "innovation", "cost-efficiency"]
+    },
+    {
+      "title": "Budget Accountability Tied to Command Authority",
+      "difficulty": "advanced",
+      "tier": "leadership",
+      "tags": ["budgeting", "accountability", "command", "stewardship"]
+    },
+    {
+      "title": "Direct Appointment and Merit-Based Officer Selection",
+      "difficulty": "advanced",
+      "tier": "leadership",
+      "tags": ["officer-selection", "meritocracy", "appointments", "talent"]
+    },
+    {
+      "title": "Chiefs as Executors and Officers as Strategists",
+      "difficulty": "intermediate",
+      "tier": "leadership",
+      "tags": ["chiefs", "officers", "roles", "execution-vs-strategy"]
+    },
+    {
+      "title": "Cybersecurity as a Warfighting Domain",
+      "difficulty": "intermediate",
+      "tier": "strategic",
+      "tags": ["cybersecurity", "domain-warfare", "technical-depth", "modern-conflict"]
+    },
+    {
+      "title": "Bureaucracy vs. Lethality: Incentive Misalignment at Senior Levels",
+      "difficulty": "advanced",
+      "tier": "leadership",
+      "tags": ["senior-leadership", "incentives", "lethality", "organizational-behavior"]
+    },
+    {
+      "title": "Control: Reasserting Standards and Command Discipline",
       "difficulty": "beginner",
-      "tier": "leadership",
-      "tags": ["contract-management", "first-contract", "lessons-learned", "execution"]
+      "tier": "strategic",
+      "tags": ["standards", "discipline", "authority", "command"]
     },
     {
-      "title": "Strategic Patience: Playing the Long Game in GovCon",
+      "title": "Alt: Altering Incentives and Structural Design",
       "difficulty": "intermediate",
       "tier": "strategic",
-      "tags": ["strategic-leadership", "patience", "long-term-thinking", "persistence"]
+      "tags": ["reform", "structure", "incentives", "organizational-change"]
     },
     {
-      "title": "Understanding Commercial Item Determinations",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["commercial-items", "far-part-12", "acquisition", "streamlined"]
-    },
-    {
-      "title": "How Technology is Changing Military Training and What It Means for Contractors",
-      "difficulty": "intermediate",
-      "tier": "strategic",
-      "tags": ["training-technology", "innovation", "trends", "future-needs"]
-    },
-    {
-      "title": "Understanding Sole Source vs. Competitive Contracts",
+      "title": "Delete: Removing Institutional Waste and Redundancy",
       "difficulty": "beginner",
-      "tier": "tactical",
-      "tags": ["sole-source", "competitive", "justification", "acquisition-strategy"]
+      "tier": "strategic",
+      "tags": ["waste-reduction", "efficiency", "streamlining", "institutional-reform"]
     },
     {
-      "title": "Creating Winning Demonstration Videos for DoD Buyers",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["demonstrations", "video", "marketing", "capability-demos"]
-    },
-    {
-      "title": "Understanding Contract Vehicles: IDIQs, GWACs, and BPAs",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["contract-vehicles", "idiq", "gwac", "bpa", "multiple-award"]
-    },
-    {
-      "title": "The Art of the Follow-Up in Government Sales",
-      "difficulty": "beginner",
-      "tier": "tactical",
-      "tags": ["follow-up", "persistence", "sales", "communication"]
-    },
-    {
-      "title": "Understanding Cost Accounting Standards (CAS) Compliance",
-      "difficulty": "advanced",
-      "tier": "tactical",
-      "tags": ["cas", "cost-accounting", "compliance", "finance"]
-    },
-    {
-      "title": "Building a Winning Corporate Experience Profile",
-      "difficulty": "intermediate",
-      "tier": "tactical",
-      "tags": ["corporate-experience", "past-performance", "cpars", "documentation"]
-    },
-    {
-      "title": "Strategic Leadership in Times of Budget Uncertainty",
-      "difficulty": "advanced",
-      "tier": "leadership",
-      "tags": ["strategic-leadership", "budget-uncertainty", "adaptability", "resilience"]
-    },
-    {
-      "title": "From SBIR to Program of Record: The Transition Strategy",
+      "title": "Blueprint for a Lean Precision Force",
       "difficulty": "advanced",
       "tier": "strategic",
-      "tags": ["sbir", "program-of-record", "transition", "scaling"]
+      "tags": ["force-design", "precision", "future-force", "readiness"]
     },
     {
-      "title": "The Altitude Problem: When Senior Leaders Lose Touch with Mission Execution",
-      "difficulty": "advanced",
-      "tier": "leadership",
-      "tags": ["toxic-leadership", "organizational-disconnect", "senior-leadership", "mission-execution", "bureaucracy"]
+      "title": "Historical Models of Decisive Airpower Leadership",
+      "difficulty": "beginner",
+      "tier": "strategic",
+      "tags": ["history", "airpower", "leadership-models", "doctrine"]
     }
   ]
 }
