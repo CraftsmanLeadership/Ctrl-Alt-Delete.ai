@@ -1,31 +1,7 @@
 [
-  "What is Artificial Intelligence?",
-  "How to Write Better Prompts for AI",
-  "What is a Neural Network?",
-  "Understanding Transformer Architecture",
-  "Understanding Loss Functions",
-  "Bias and Fairness in AI Systems",
-  "Voice Assistants Explained: Siri, Alexa, and Google Assistant",
-  "Federated Learning: Privacy-Preserving AI",
-  "The Environmental Impact of Training AI Models",
-  "Ensemble Methods in Machine Learning",
-  "Understanding Model Parameters and Hyperparameters",
-  "How Recommendation Systems Work",
-  "Understanding Attention Mechanisms",
-  "Gradient Descent Optimization Algorithms",
-  "Understanding Activation Functions",
-  "Understanding Mini-Batch Training",
-  "What is Model Drift?",
-  "AI Ethics: Privacy, Consent, and Data Rights",
-  "AI in Healthcare: Diagnosis and Treatment",
-  "What is Model Security?",
-  "What is Model Validation Pipeline?",
-  "AI for Supply Chain Optimization",
-  "Understanding Gradient Clipping",
-  "AI for Coral Reef Monitoring",
-  "How AI Composes Music",
-  "Advanced Prompt Engineering Techniques",
-  "Prompt Engineering for Developers",
-  "The Difference Between AI, Machine Learning, and Deep Learning"
-  "What Can AI Do? Current Capabilities and Limitations"
+  {
+    "title": "Managing Your First Government Contract: Lessons Learned",
+    "filename": "managing-your-first-government-contract-lessons-learned.md",
+    "date": "2026-02-11T15:18:05.521Z"
+  }
 ]
