@@ -1,70 +1,22 @@
-# Craftsman Leadership
+# CTRL_ALT_DEL (Control-ALT-Delete)
 
-Strategic Leadership for Government Contracting. An AI-powered education platform that automatically generates expert guidance on building partnerships with the Department of War and leading complex organizations.
+This repository is the content and publishing engine for the book:
+**Control-ALT-Delete: A Strategy for Modern Military Readiness**
 
-## About
+## Repo Structure
+- `content/topics/`  
+  Topic lists that drive article and chapter generation.
+- `content/generated/`  
+  Generated draft articles and chapter sections.
+- `content/chapters/`  
+  Curated, assembled chapters (final form).
+- `prompts/`  
+  System and writing prompts used by the generator.
+- `scripts/`  
+  Utility scripts to create slugs, generate stubs, and manage content.
 
-Founded by **Dr. Jesse W. Johnson, DSL, MAOM** - Lieutenant Colonel(Ret), U.S. Air Force - Craftsman Leadership teaches leaders how to think strategically about business and government contracting using a three-tier framework:
-
-- **Strategic Foundations (Think)** - Big picture strategy, systems thinking, buyer perspective
-- **Operational Leadership (Lead)** - Organizational change, culture, stakeholder management  
-- **Tactical Execution (Do)** - Step-by-step guidance, insider tips, practical resources
-
-## Features
-
-- **Automatic Content Generation**: New guides published daily using AI
-- **75+ Topics**: Comprehensive coverage from requirements development to contract execution
-- **Insider Perspective**: Content based on 24+ years of Air Force acquisition and innovation experience
-- **Strategic Framework**: Every guide connects tactical actions to strategic outcomes
-- **Free Access**: All guides freely available at craftsmanleadership.com
-
-## Technology Stack
-
-- **Jekyll**: Static site generator
-- **NVIDIA AI**: Content generation using Llama 3.1 70B Instruct
-- **GitHub Pages**: Free hosting and deployment
-- **GitHub Actions**: Automated daily content generation
-
-## Live Site
-
-Visit: [https://craftsmanleadership.com](https://craftsmanleadership.com)
-
-## Content Philosophy
-
-Craftsman Leadership doesn't teach you to fill out forms. We teach you to **think strategically** about how to build partnerships with the Department of Defense.
-
-Our content is:
-- **Direct and no-nonsense** - We challenge conventional thinking
-- **Strategic first** - Every tactic connects to strategic purpose
-- **Buyer perspective** - Insights from someone who's evaluated hundreds of vendor pitches
-- **Action-oriented** - You'll know exactly what to do next
-
-## Topics Covered
-
-Our 75 topics span three strategic tiers:
-
-**Strategic Foundations**: Requirements development, DoW culture, competitive positioning, innovation pathways, long-term strategy
-
-**Operational Leadership**: Change management, team building, values-based decisions, stakeholder management, organizational culture
-
-**Tactical Execution**: SAM registration, SBIR/STTR, proposals, pricing, certifications, ATO processes, teaming agreements, contract types
-
-## About the Founder
-
-**Dr. Jesse W. Johnson, DSL, MAOM** holds a Doctorate in Strategic Leadership from Regent University and retired as a Lieutenant Colonel in the U.S. Air Force in January of 2026. He led the Air Force's MOTAR (Member Operations Training Analytics and Reports) program and commanded Det 23 Technical Training Transformation, bringing VR/AR and AI-enabled training to Airmen.
-
-With 24+ years on the buyer side of government contracting, Dr. Johnson has evaluated hundreds of vendor pitches, managed SBIR programs, and navigated DoW acquisition from the inside. He knows what works - and what doesn't - from direct experience.
-
-## License
-
-MIT License - Feel free to fork and adapt for your own educational projects
-
-## Contact
-
-For inquiries: jesse@craftsmanleadership.com
-
----
-
-**Mission**: Changing the world by transforming ordinary people into extraordinary leaders!
-
-*The views expressed are those of the author and do not reflect the official policy or position of the U.S. Air Force, Department of Defense, or the U.S. Government.*
+## Workflow
+1. Add/edit topics in `content/topics/ctrl_alt_del.topics.json`
+2. Run `node scripts/create-stubs.mjs`
+3. Paste generated stubs into your site’s article system (or keep as markdown drafts)
+4. Promote best drafts into `content/chapters/` as chapters
