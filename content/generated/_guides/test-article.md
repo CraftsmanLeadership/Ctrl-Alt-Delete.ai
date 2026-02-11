@@ -1,8 +1,9 @@
 ---
+layout: guide
 title: "The Illusion of Readiness Metrics"
-difficulty: "beginner"
-tier: "strategic"
-tags: ["readiness", "metrics", "dashboards"]
+tags: ["readiness", "metrics"]
+---
+
 ---
 
 ## Problem
