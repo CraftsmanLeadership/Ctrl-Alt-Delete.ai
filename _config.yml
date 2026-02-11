@@ -18,11 +18,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Collections
 collections:
   guides:
     output: true
-    permalink: /guides/:title/
+    permalink: /guides/:name/
+
 
 # Defaults
 defaults:
